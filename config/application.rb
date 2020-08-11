@@ -11,7 +11,7 @@ module Yourtaste
     config.generators do |g|
       g.test_framework :rspec,
                        fixtures: true,
-                       view_spec: false,
+                       view_specs: false,
                        helper_specs: false,
                        routing_specs: false,
                        request_specs: false,
